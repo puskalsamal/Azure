@@ -13,7 +13,7 @@ Prerequisites that are required to be met before launching the stack are listed 
 1. Launch cloudshell.azure.com in a browser window  (or Azure Portal > Launch cloud shell)
 2. Clone this repo using git clone locally and upload the necessary artifacts (DSC.zip, Template File, Template Parameter File, deployArcGISSite.sh) to cloud shell file share.
 3. Upload License and Certificate File to cloud shell file share.
-4. Make sure the template file and template parameter files of the desired topology, license and certificate files are copied to the same directory as that of the deployArcGISSite.sh script.
+4. Make sure the template file and template parameter file of the desired topology, license and certificate files are copied to the same directory as that of the deployArcGISSite.sh script.
 5. Edit the ARM Templates parameters file you want to deploy.
 6. Navigate to 'clouddrive' folder in cloud shell file share on Azure CloudShell.
 7. Use the following command to deploy the ArcGIS Site after replacing the necessary parameters.
