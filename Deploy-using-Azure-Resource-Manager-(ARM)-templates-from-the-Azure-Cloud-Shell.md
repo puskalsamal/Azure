@@ -21,9 +21,11 @@ Prerequisites that are required to be met before launching the stack are listed 
 ```
 ./deployArcGISSite.sh -f <templateFileName> -p <templateParametersFileName> -g <resourceGroupName> -l <resourceGroupLocation> -s <storageAccountName> -r <storageAccountResourceGroupName>
 ```
-here templateFileName is the name of the template file being deployed (e.g:- basedeployment-single-tier.json)
-templateParametersFileName is the name of the template parameters file (e.g:- basedeployment-multi-tier.parameters.json)
-resourceGroupName is the name of the resource group to deploy into
-resourceGroupLocation is the location of the resource group to create in (if not exists)
-storageAccountName is the name of the storage account used to store deployment artifacts during the deployment
-storageAccountResourceGroupname is the name of the resource group for the storageAccountName
+
+Parameters for `deployArcGISSite.sh` shell script
+- f - `templateFileName` is the name of the template file being deployed (e.g:- basedeployment-single-tier.json).
+- p - `templateParametersFileName` is the name of the template parameters file (e.g:- basedeployment-multi-tier.parameters.json).
+- g - `resourceGroupName` is the name of the resource group to deploy into.
+- l - `resourceGroupLocation` is the location of the resource group to create in (if not exists).
+- s - `storageAccountName` is the name of the storage account used to store deployment artifacts during the deployment.
+- r - `storageAccountResourceGroupname` is the name of the resource group for the storageAccountName.
