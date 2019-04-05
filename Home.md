@@ -5,4 +5,4 @@ Esri provides Azure Resource Manager (ARM) Templates and a shell script to help 
 
 See wiki pages for more information about using ArcGIS Azure Resource Manager (ARM) Templates.
 
-We use the script 'deployArcGISSite.sh' to help with automated deployment using Azure Cloud Shell.
+Please use the script 'deployArcGISSite.sh' to help with automated deployment using Azure Cloud Shell.
