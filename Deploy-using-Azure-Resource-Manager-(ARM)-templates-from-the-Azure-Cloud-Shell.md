@@ -13,10 +13,17 @@ Prerequisites that are required to be met before launching the stack are listed 
 1. Launch cloudshell.azure.com in a browser window  (or Azure Portal > Launch cloud shell)
 2. Clone this repo using git clone locally and upload the necessary artifacts (DSC.zip, Template File, Template Parameter File, deployArcGISSite.sh) to cloud shell file share.
 3. Upload License and Certificate File to cloud shell file share.
-4. Edit the ARM Templates parameters file you want to deploy.
-5. Navigate to 'clouddrive' folder in cloud shell file share on Azure CloudShell.
-6. Use the following command to deploy the ArcGIS Site.
+4. Make sure the license and certificate files are copied to the same directory of the deployArcGISSite.sh script
+5. Edit the ARM Templates parameters file you want to deploy.
+6. Navigate to 'clouddrive' folder in cloud shell file share on Azure CloudShell.
+7. Use the following command to deploy the ArcGIS Site after replacing the neccesary parameters.
 
 ```
 ./deployArcGISSite.sh -f <templateFileName> -p <templateParametersFileName> -g <resourceGroupName> -l <resourceGroupLocation> -s <storageAccountName> -r <storageAccountResourceGroupName>
 ```
+here templateFileName is the name of the template file being deployed (e.g:- basedeployment-single-tier.json)
+templateParametersFileName is the name of the template parameters file (e.g:- basedeployment-multi-tier.parameters.json)
+resourceGroupName is the name of the resource group to deploy into
+resourceGroupLocation is the location of the resource group to create in (if not exists)
+storageAccountName is the name of the storage account used to store deployment artifacts during the deployment
+storageAccountResourceGroupname is the name of the resource group for the storageAccountName
