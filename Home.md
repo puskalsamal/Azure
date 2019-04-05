@@ -5,4 +5,6 @@ Esri provides Azure Resource Manager (ARM) Templates and a shell script to help 
 
 See wiki pages for more information about using ArcGIS Azure Resource Manager (ARM) Templates.
 
+For development and testing, we also provide self signed SSL certificates. These are meant for development use only and will require browsers and application to accept them explicitly.
+
 Please use the script 'deployArcGISSite.sh' to help with automated deployment using Azure Cloud Shell.
