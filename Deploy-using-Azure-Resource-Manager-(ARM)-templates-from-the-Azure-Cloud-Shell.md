@@ -29,3 +29,8 @@ Parameters for `deployArcGISSite.sh` shell script
 - l - `resourceGroupLocation` is the location of the resource group to create in (if not exists).
 - s - `storageAccountName` is the name of the storage account used to store deployment artifacts during the deployment.
 - r - `storageAccountResourceGroupname` is the name of the resource group for the storageAccountName.
+
+#### Note - Provided Self-Signed SSL Certificates
+For development and testing, we also provide self-signed SSL certificates. These are meant for development use only and will require browsers and application to accept them explicitly.  
+The password to all the certificates can be easily derived from certificate filename. Replace the prefix `wildcard` with `*` and remove the extension `.pfx`.  
+Example - If the certificate file name is `wildcard.eastus.cloudapp.azure.com.pfx`, its corresponding password will be `*.eastus.cloudapp.azure.com`
