@@ -1,0 +1,1 @@
+You can use Azure Resource Manager (ARM) templates provided by Esri to create the deployments in Microsoft Azure Cloud. You can use the Azure Cloud Shell to launch ARM Templates (as described in this topic).
