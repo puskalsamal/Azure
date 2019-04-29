@@ -6,8 +6,8 @@ You can use Azure Resource Manager (ARM) Templates provided by ESRI to deploy fo
 - A highly available ArcGIS Server site
 - A single machine ArcGIS GeoAnalytics Server site
 - A highly available ArcGIS GeoAnalytics Server site
-- A single machine ArcGIS GeoEvents Server site
-- A highly available ArcGIS GeoEvents Server site
+- A single machine ArcGIS GeoEvent Server site
+- A highly available ArcGIS GeoEvent Server site
 - A single machine ArcGIS Image/Raster Server site
 - A highly available ArcGIS Image/Raster Server site
 - A single machine ArcGIS Notebook Server site
@@ -35,7 +35,7 @@ ARM templates are available to deploy ArcGIS Enterprise on Azure. ArcGIS Enterpr
 
 In addition to the above ArcGIS Enterprise components, a load balancer and webproxy might be deployed depending on the type of deployment.
 
-You need the following before you can run the CloudFormation templates to deploy ArcGIS Enterprise:
+You need the following before you can run the Azure Resource Manager (ARM) templates to deploy ArcGIS Enterprise:
 
 - Licesnse File for server and portal
 - A valid domain name for your site. 
